@@ -1,0 +1,10 @@
+.nav {
+    /* display: flex;
+    justify-content: flex-end; */
+    padding-right: 34px;
+    padding-top: 3px;
+}
+
+.link:hover {
+    color: orange;
+}

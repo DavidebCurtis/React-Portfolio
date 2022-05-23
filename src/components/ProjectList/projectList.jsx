@@ -1,5 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './projectList.css';
+import LaptopIcon from '@mui/icons-material/Laptop';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const ProjectList = () => {
   const [projects] = useState([
@@ -26,6 +28,18 @@ const ProjectList = () => {
       img: 'food_festival',
       link: 'https://davidebcurtis.github.io/food-festival/',
       github: 'https://github.com/DavidebCurtis/food-festival',
+    },
+    {
+      name: 'Thoughts Social Media',
+      img: 'thoughts',
+      link: 'https://www.youtube.com/watch?v=mbxz4TIVuzA&t=5s',
+      github: 'https://github.com/DavidebCurtis/thoughts-social-media',
+    },
+    {
+      name: 'Note Taker',
+      img: 'note_taker',
+      link: 'https://secure-forest-87411.herokuapp.com/',
+      github: 'https://github.com/DavidebCurtis/note-taker',
     },
   ]);
 
@@ -74,10 +88,10 @@ const ProjectList = () => {
             />
             <div id={project.name} className='demo-github'>
               <a href={project.link} className='demo'>
-                Demo
+                <LaptopIcon fontSize='large' style={{ color: '#fff' }} />
               </a>
               <a href={project.github} className='github'>
-                Github
+                <GitHubIcon fontSize='large' style={{ color: '#fff' }} />
               </a>
             </div>
           </div>

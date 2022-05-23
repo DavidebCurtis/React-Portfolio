@@ -35,8 +35,8 @@
     font-weight: bold;
     color: #555;
     margin: auto;
-    margin-bottom: 5%;
-    margin-top: 0;
+    margin-bottom: 4%;
+    margin-top: 2%;
 }
 
 .browser {
@@ -60,4 +60,7 @@
     width: 48vh;
     height: 34vh;
     background-color: rgba(69, 69, 69, 0.662);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

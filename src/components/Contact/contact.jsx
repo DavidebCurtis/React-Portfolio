@@ -48,13 +48,13 @@ function ContactForm() {
             <h3 className='c-quick'>QUICK CONTACT</h3>
             <ul>
               <li>
-                <span>Phone:</span>
+                <span>Phone: </span>
                 <a className='c-quick-link' href='tel:3362099503'>
                   336-209-9503
                 </a>
               </li>
               <li>
-                <span>Email:</span>
+                <span>Email: </span>
                 <a
                   className='c-quick-link'
                   href='mailto:davidebcurtis@gmail.com'
@@ -63,7 +63,7 @@ function ContactForm() {
                 </a>
               </li>
               <li>
-                <span>Location:</span>Winston-Salem NC, 27103
+                <span>Location: </span>Winston-Salem NC, 27103
               </li>
             </ul>
           </div>

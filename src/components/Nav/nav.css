@@ -8,3 +8,10 @@
 .link:hover {
     color: orange;
 }
+
+.link {
+    color: #555;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './projectList.css';
 
 const ProjectList = () => {
@@ -29,6 +29,7 @@ const ProjectList = () => {
     setCurrentProject({ ...project, i });
     if (project.name) {
       const selected = document.getElementById(project.name);
+      selected.style.transitionDuration = '.5s';
       selected.style.transform = 'translateY(-34.5vh)';
     }
   };
@@ -37,12 +38,13 @@ const ProjectList = () => {
     setCurrentProject({ ...project, i });
     if (project.name) {
       const selected = document.getElementById(project.name);
+      selected.style.transitionDuration = '.5s';
       selected.style.transform = 'translateY(34.5vh)';
     }
   };
 
   return (
-    <div className='projects'>
+    <section id='projects' className='projects'>
       <div className='project-title'>Projects</div>
       <div className='card-wrapper'>
         {projects.map((project, i) => (
@@ -50,6 +52,7 @@ const ProjectList = () => {
             onMouseEnter={() => handleMouseEnter(project, i)}
             onMouseLeave={() => handleMouseLeave(project, i)}
             className='project'
+            data-aos='fade-right'
           >
             <div className='browser'>
               {' '}
@@ -74,7 +77,7 @@ const ProjectList = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

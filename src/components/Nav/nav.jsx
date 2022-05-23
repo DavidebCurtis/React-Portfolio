@@ -4,7 +4,7 @@ import Link from '@mui/material/Link';
 import './nav.css';
 
 function handleClick(event) {
-  event.preventDefault();
+  // event.preventDefault();
   console.info('You clicked a breadcrumb.');
 }
 
@@ -12,7 +12,7 @@ export default function nav() {
   return (
     <div role='presentation' onClick={handleClick}>
       <Breadcrumbs className='nav' aria-label='breadcrumb'>
-        <Link
+        <a
           className='link'
           underline='hover'
           color='text.primary'
@@ -20,16 +20,31 @@ export default function nav() {
           aria-current='page'
         >
           About Me
-        </Link>
-        <Link className='link' underline='hover' color='text.primary' href=''>
-          Portfolio
-        </Link>
-        <Link className='link' underline='hover' color='text.primary' href=''>
+        </a>
+        <a
+          className='link'
+          underline='hover'
+          color='text.primary'
+          href='#projects'
+        >
+          Projects
+        </a>
+        <a
+          className='link'
+          underline='hover'
+          color='text.primary'
+          href='#contact'
+        >
           Contact
-        </Link>
-        <Link className='link' underline='hover' color='text.primary' href=''>
+        </a>
+        <a
+          className='link'
+          underline='hover'
+          color='text.primary'
+          href='#resume'
+        >
           Resume
-        </Link>
+        </a>
       </Breadcrumbs>
     </div>
   );

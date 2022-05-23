@@ -42,42 +42,73 @@ function ContactForm() {
 
   return (
     <section id='contact' className='contact'>
-      <h1>Contact me</h1>
-      <form id='contact-form' onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor='name'>Name:</label>
-          <input
-            type='text'
-            defaultValue={name}
-            onChange={handleChange}
-            name='name'
-          />
-        </div>
-        <div>
-          <label htmlFor='email'>Email address:</label>
-          <input
-            type='email'
-            defaultValue={email}
-            name='email'
-            onChange={handleChange}
-          />{' '}
-        </div>
-        <div>
-          <label htmlFor='message'>Message:</label>
-          <textarea
-            name='message'
-            defaultValue={message}
-            onChange={handleChange}
-            rows='5'
-          />
-        </div>
-        {errorMessage && (
-          <div>
-            <p className='error-text'>{errorMessage}</p>
+      <div className='c-left'>
+        <div class='col-lg-10'>
+          <div class='contact-info'>
+            <h3 className='c-quick'>QUICK CONTACT</h3>
+            <ul>
+              <li>
+                <span>Phone:</span>
+                <a className='c-quick-link' href='tel:3362099503'>
+                  336-209-9503
+                </a>
+              </li>
+              <li>
+                <span>Email:</span>
+                <a
+                  className='c-quick-link'
+                  href='mailto:davidebcurtis@gmail.com'
+                >
+                  davidebcurtis@gmail.com
+                </a>
+              </li>
+              <li>
+                <span>Location:</span>Winston-Salem NC, 27103
+              </li>
+            </ul>
           </div>
-        )}
-        <button type='submit'>Submit</button>
-      </form>
+        </div>
+      </div>
+      <div className='c-right'>
+        <h1 className='c-title'>Contact me</h1>
+        <form id='contact-form' onSubmit={handleSubmit}>
+          <div className='c-name'>
+            <input
+              type='text'
+              defaultValue={name}
+              onChange={handleChange}
+              name='name'
+              placeholder='Name'
+            />
+          </div>
+          <div className='c-email'>
+            <input
+              type='email'
+              defaultValue={email}
+              name='email'
+              onChange={handleChange}
+              placeholder='Email address'
+            />
+          </div>
+          <div className='c-message'>
+            <textarea
+              name='message'
+              defaultValue={message}
+              onChange={handleChange}
+              rows='5'
+              placeholder='Message'
+            />
+          </div>
+          {errorMessage && (
+            <div>
+              <p className='error-text'>{errorMessage}</p>
+            </div>
+          )}
+          <button className='email-submit' type='submit'>
+            Submit
+          </button>
+        </form>
+      </div>
     </section>
   );
 }

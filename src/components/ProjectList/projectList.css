@@ -26,13 +26,14 @@
     color: white;
     height: 36.3vh;
     overflow: hidden;
+    margin-bottom: 3%;
 }
 
 .project-title {
     padding-top: 3px;
-    font-size: 30px;
+    font-size: 60px;
     font-weight: bold;
-    color: orange;
+    color: #555;
     margin: auto;
     margin-bottom: 5%;
     margin-top: 0;

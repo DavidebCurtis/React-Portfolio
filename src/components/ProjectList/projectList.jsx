@@ -21,6 +21,12 @@ const ProjectList = () => {
       link: 'https://davidebcurtis.github.io/weather-dashboard/',
       github: 'https://github.com/DavidebCurtis/weather-dashboard',
     },
+    {
+      name: 'Food Festival',
+      img: 'food_festival',
+      link: 'https://davidebcurtis.github.io/food-festival/',
+      github: 'https://github.com/DavidebCurtis/food-festival',
+    },
   ]);
 
   const [currentProject, setCurrentProject] = useState();
@@ -45,14 +51,14 @@ const ProjectList = () => {
 
   return (
     <section id='projects' className='projects'>
-      <div className='project-title'>Projects</div>
+      <div className='project-title'>Check this out</div>
       <div className='card-wrapper'>
         {projects.map((project, i) => (
           <div
             onMouseEnter={() => handleMouseEnter(project, i)}
             onMouseLeave={() => handleMouseLeave(project, i)}
             className='project'
-            data-aos='fade-right'
+            data-aos='fade-up'
           >
             <div className='browser'>
               {' '}

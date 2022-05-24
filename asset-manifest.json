@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.b97dbc5a.css",
-    "main.js": "/React-Portfolio/static/js/main.7d177567.js",
+    "main.css": "/React-Portfolio/static/css/main.ac308743.css",
+    "main.js": "/React-Portfolio/static/js/main.14f1af5d.js",
     "static/media/me.png": "/React-Portfolio/static/media/me.3a10fe701669c62a67c7.png",
     "static/media/food_festival.png": "/React-Portfolio/static/media/food_festival.812ac111f3f9baa2083e.png",
     "static/media/scout_pet_sitting.png": "/React-Portfolio/static/media/scout_pet_sitting.14719de29c6fd1ad0f94.png",
@@ -11,11 +11,11 @@
     "static/media/surfing.jpeg": "/React-Portfolio/static/media/surfing.dd473cf37ea669bc6032.jpeg",
     "static/media/anime_quiz.png": "/React-Portfolio/static/media/anime_quiz.228789dadacc82802776.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.b97dbc5a.css.map": "/React-Portfolio/static/css/main.b97dbc5a.css.map",
-    "main.7d177567.js.map": "/React-Portfolio/static/js/main.7d177567.js.map"
+    "main.ac308743.css.map": "/React-Portfolio/static/css/main.ac308743.css.map",
+    "main.14f1af5d.js.map": "/React-Portfolio/static/js/main.14f1af5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b97dbc5a.css",
-    "static/js/main.7d177567.js"
+    "static/css/main.ac308743.css",
+    "static/js/main.14f1af5d.js"
   ]
 }

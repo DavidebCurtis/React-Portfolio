@@ -6,9 +6,9 @@ import 'aos/dist/aos.css';
 import Me from '../../assets/me.png';
 
 const Header = () => {
-  useEffect(() => {
-    Aos.init({ duration: 5000 });
-  }, []);
+  // useEffect(() => {
+  //   Aos.init({ duration: 5000 });
+  // }, []);
 
   return (
     <div className='header'>

@@ -3,6 +3,11 @@ import './about.css';
 import img from '../../assets/surfing.jpeg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { FaHtml5, FaCss3Alt, FaNodeJs, FaReact } from 'react-icons/fa';
+import { IoLogoJavascript } from 'react-icons/io';
+import { SiMongodb } from 'react-icons/si';
+import { AiFillGithub } from 'react-icons/ai';
+import { GrMysql } from 'react-icons/gr';
 
 const About = () => {
   useEffect(() => {
@@ -31,6 +36,25 @@ const About = () => {
           cooped up coding you can always find me out fishing, hitting a new
           mountain bike trail, or maybe even shreding a wave or two.
         </p>
+
+        <div
+          // data-aos-anchor='#about'
+          // data-aos-anchor-placement='top-top'
+          data-aos='fade-zoom-in'
+          data-aos-easing='ease-in-back'
+          data-aos-delay='300'
+          data-aos-offset='0'
+          className='skills'
+        >
+          <FaHtml5 size={70} />
+          <FaCss3Alt size={70} />
+          <IoLogoJavascript size={70} />
+          <FaNodeJs size={70} />
+          <FaReact size={70} />
+          <SiMongodb size={70} />
+          <GrMysql size={70} />
+          <AiFillGithub size={70} />
+        </div>
       </div>
     </div>
   );

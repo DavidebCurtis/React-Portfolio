@@ -10,7 +10,7 @@ function handleClick(event) {
 
 export default function nav() {
   return (
-    <div role='presentation' onClick={handleClick}>
+    <div className='stick' role='presentation' onClick={handleClick}>
       <Breadcrumbs className='nav' aria-label='breadcrumb'>
         <a
           className='link'

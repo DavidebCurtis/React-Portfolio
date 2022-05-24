@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import './contact.css';
+import emailjs from '@emailjs/browser';
 
 function ContactForm() {
   const [formState, setFormState] = useState({
@@ -38,6 +39,21 @@ function ContactForm() {
   function handleSubmit(e) {
     e.preventDefault();
     console.log(formState);
+    emailjs
+      .send(
+        'service_y8dsz1j',
+        'template_ldsvefv',
+        formState,
+        'oiZEJkT-wcxZcf_OF'
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   }
 
   return (

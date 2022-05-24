@@ -95,10 +95,10 @@ const ProjectList = () => {
               className='card'
             />
             <div id={project.name} className='demo-github'>
-              <a href={project.link} className='demo'>
+              <a href={project.link} id='l' className='demo'>
                 <LaptopIcon fontSize='large' style={{ color: '#fff' }} />
               </a>
-              <a href={project.github} className='github'>
+              <a href={project.github} id='g' className='github'>
                 <GitHubIcon fontSize='large' style={{ color: '#fff' }} />
               </a>
             </div>

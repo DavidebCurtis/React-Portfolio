@@ -1,17 +1,30 @@
 .contact {
     height: 100vh;
     display: flex;
-    /* flex-direction: column;
-    align-items: center;
+    flex-direction: column;
+    /* align-items: center;
     justify-content: center; */
 }
 
+
+.l-r-wrapper {
+    display: flex;
+    height: 66vh;
+    width: 70%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
 .c-left {
-    flex: 1;
+    flex: .5;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    background-color: #ffac33;
+    border-radius: 10px;
+    margin: 2px;
+    /* justify-content: center; */
 }
 
 
@@ -19,7 +32,9 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* align-items: center; */
+    margin: 2px;
+    /* justify-content: center; */
     /* padding-right: 120px; */
 }
 
@@ -72,16 +87,18 @@ input {
 }
 
 form {
-    width: 56%;
+    width: 75%;
+    margin-top: 6%;
+    margin-left: 6%;
 }
 
-.c-title {
+/* .c-title {
         font-size: 24px;
         line-height: 1;
         font-weight: 600;
         text-transform: uppercase;
         margin-bottom: 30px;
-}
+} */
 
 .c-quick {
     font-size: 24px;
@@ -89,6 +106,7 @@ form {
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 30px;
+    color: white;
 }
 
 ul {
@@ -101,13 +119,39 @@ ul li {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 1px;
-    color: #555;
+    color: white;
     margin-bottom: 12px;
 }
 
 .c-quick-link {
-    color: #555;
+    color: white;
     line-height: inherit;
     text-decoration: none;
     cursor: pointer;
+}
+
+.title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 14vh;
+}
+
+.contact-me {
+    font-size: 50px;
+    line-height: 1;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.fast {
+    color: rgb(233, 233, 233);
+}
+
+.c-inside {
+    width: 80%;
+}
+
+.c-icon {
+    padding-right: 6%;
 }

@@ -41,7 +41,8 @@ export default function nav() {
           className='link'
           underline='hover'
           color='text.primary'
-          href='#resume'
+          target='_blank'
+          href='https://docs.google.com/document/d/e/2PACX-1vTd8KY5Hti6bm5UpeUlIqc-puNOQVxsWlVXFxBGF_3ICeai4p_yRs97KxFLKTy-aw/pub'
         >
           Resume
         </a>

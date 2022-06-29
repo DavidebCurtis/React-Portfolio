@@ -28,7 +28,8 @@ const Header = () => {
       <div className='h-right'>
         <div className='img-container'>
           <div className='shape'></div>
-          <img data-aos='fade' className='me' src={Me}></img>
+          <img className='me' src={Me}></img>
+          {/* <img data-aos='fade' className='me' src={Me}></img> */}
         </div>
       </div>
     </div>

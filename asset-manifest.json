@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.55409d60.css",
-    "main.js": "/React-Portfolio/static/js/main.ffe34d95.js",
+    "main.css": "/React-Portfolio/static/css/main.fe9161f1.css",
+    "main.js": "/React-Portfolio/static/js/main.345fc4d3.js",
     "static/media/me.png": "/React-Portfolio/static/media/me.3a10fe701669c62a67c7.png",
     "static/media/food_festival.png": "/React-Portfolio/static/media/food_festival.812ac111f3f9baa2083e.png",
     "static/media/scout_pet_sitting.png": "/React-Portfolio/static/media/scout_pet_sitting.14719de29c6fd1ad0f94.png",
+    "static/media/virtualgardenscreenshot.png": "/React-Portfolio/static/media/virtualgardenscreenshot.73ad78371ca3df59e493.png",
     "static/media/thoughts.png": "/React-Portfolio/static/media/thoughts.c7209848de7779d9fe82.png",
     "static/media/weather_dashboard.png": "/React-Portfolio/static/media/weather_dashboard.4346ac9c245ef9b28956.png",
     "static/media/note_taker.png": "/React-Portfolio/static/media/note_taker.86d20a8dc4d83c4b700b.png",
-    "static/media/surfing.jpeg": "/React-Portfolio/static/media/surfing.dd473cf37ea669bc6032.jpeg",
     "static/media/anime_quiz.png": "/React-Portfolio/static/media/anime_quiz.228789dadacc82802776.png",
+    "static/media/mecoding.jpg": "/React-Portfolio/static/media/mecoding.7bcee0d8f3c89c7d13b6.jpg",
     "index.html": "/React-Portfolio/index.html",
-    "main.55409d60.css.map": "/React-Portfolio/static/css/main.55409d60.css.map",
-    "main.ffe34d95.js.map": "/React-Portfolio/static/js/main.ffe34d95.js.map"
+    "main.fe9161f1.css.map": "/React-Portfolio/static/css/main.fe9161f1.css.map",
+    "main.345fc4d3.js.map": "/React-Portfolio/static/js/main.345fc4d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.55409d60.css",
-    "static/js/main.ffe34d95.js"
+    "static/css/main.fe9161f1.css",
+    "static/js/main.345fc4d3.js"
   ]
 }

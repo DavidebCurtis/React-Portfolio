@@ -12,16 +12,16 @@ const ProjectList = () => {
       github: 'https://github.com/DavidebCurtis/anime-quiz',
     },
     {
+      name: 'Virtual Garden',
+      img: 'virtualgardenscreenshot',
+      link: 'https://plantgardenforum.herokuapp.com/',
+      github: 'https://github.com/DavidebCurtis/Virtual-Garden-Forum',
+    },
+    {
       name: 'Scout',
       img: 'scout_pet_sitting',
       link: 'https://scout-for-pets.herokuapp.com/',
       github: 'https://github.com/DavidebCurtis/Scout',
-    },
-    {
-      name: 'Weather Dashboard',
-      img: 'weather_dashboard',
-      link: 'https://davidebcurtis.github.io/weather-dashboard/',
-      github: 'https://github.com/DavidebCurtis/weather-dashboard',
     },
     {
       name: 'Food Festival',
@@ -30,10 +30,10 @@ const ProjectList = () => {
       github: 'https://github.com/DavidebCurtis/food-festival',
     },
     {
-      name: 'Thoughts Social Media',
-      img: 'thoughts',
-      link: 'https://www.youtube.com/watch?v=mbxz4TIVuzA&t=5s',
-      github: 'https://github.com/DavidebCurtis/thoughts-social-media',
+      name: 'Weather Dashboard',
+      img: 'weather_dashboard',
+      link: 'https://davidebcurtis.github.io/weather-dashboard/',
+      github: 'https://github.com/DavidebCurtis/weather-dashboard',
     },
     {
       name: 'Note Taker',

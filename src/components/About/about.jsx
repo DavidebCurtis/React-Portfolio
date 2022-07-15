@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './about.css';
-import img from '../../assets/surfing.jpeg';
+import img from '../../assets/mecoding.jpg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { FaHtml5, FaCss3Alt, FaNodeJs, FaReact } from 'react-icons/fa';
@@ -31,10 +31,11 @@ const About = () => {
         <p className='description'>
           I transistioned in to an IT career a little over a year ago. Upon
           entering this new field I found a love for computers yes, but more so
-          how applications are built and run. I am currently enrolled in the UNC
-          bootcamp to further my knowledge of web based applications. If I'm not
-          cooped up coding you can always find me out fishing, hitting a new
-          mountain bike trail, or maybe even shreding a wave or two.
+          how applications are built and run. This june I completed a full stack
+          web development program at UNC Chapil Hill to further my knowledge of
+          web based applications. If I'm not cooped up coding you can always
+          find me out fishing, hitting a new mountain bike trail, or maybe even
+          shreding a wave or two.
         </p>
 
         <div

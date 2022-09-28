@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.fe9161f1.css",
-    "main.js": "/React-Portfolio/static/js/main.345fc4d3.js",
+    "main.js": "/React-Portfolio/static/js/main.e995e71a.js",
     "static/media/me.png": "/React-Portfolio/static/media/me.3a10fe701669c62a67c7.png",
     "static/media/food_festival.png": "/React-Portfolio/static/media/food_festival.812ac111f3f9baa2083e.png",
     "static/media/scout_pet_sitting.png": "/React-Portfolio/static/media/scout_pet_sitting.14719de29c6fd1ad0f94.png",
@@ -13,10 +13,10 @@
     "static/media/mecoding.jpg": "/React-Portfolio/static/media/mecoding.7bcee0d8f3c89c7d13b6.jpg",
     "index.html": "/React-Portfolio/index.html",
     "main.fe9161f1.css.map": "/React-Portfolio/static/css/main.fe9161f1.css.map",
-    "main.345fc4d3.js.map": "/React-Portfolio/static/js/main.345fc4d3.js.map"
+    "main.e995e71a.js.map": "/React-Portfolio/static/js/main.e995e71a.js.map"
   },
   "entrypoints": [
     "static/css/main.fe9161f1.css",
-    "static/js/main.345fc4d3.js"
+    "static/js/main.e995e71a.js"
   ]
 }

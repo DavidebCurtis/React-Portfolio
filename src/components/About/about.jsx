@@ -29,13 +29,13 @@ const About = () => {
       <div data-aos='fade-down' className='right'>
         <h1 className='title'>About Me</h1>
         <p className='description'>
-          I transistioned in to an IT career a little over a year ago. Upon
-          entering this new field I found a love for computers yes, but more so
-          how applications are built and run. This june I completed a full stack
-          web development program at UNC Chapil Hill to further my knowledge of
-          web based applications. If I'm not cooped up coding you can always
-          find me out fishing, hitting a new mountain bike trail, or maybe even
-          shreding a wave or two.
+          I transistioned in to an IT career two years ago. Upon entering this
+          new field I found a love for computers yes, but more so how
+          applications are built and run. This june I completed a full stack web
+          development program at UNC Chapel Hill to further my knowledge of web
+          based applications. If I'm not cooped up coding you can always find me
+          out fishing, hitting a new mountain bike trail, or maybe even shreding
+          a wave or two.
         </p>
 
         <div
